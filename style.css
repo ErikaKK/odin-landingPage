@@ -1,0 +1,162 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 16px 40px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.header-link-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  align-items: center;
+}
+.header-link {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+.hero-main {
+  /* display: flex;
+  flex-wrap: wrap; */
+  gap: 32px;
+  padding: 100px 0;
+  align-items: center;
+  display: grid;
+  /* 不能自适应最多两列 */
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+}
+.hero-text {
+  flex-grow: 1;
+  /* width: 50%; */
+  flex-wrap: wrap;
+}
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.sign-up1 {
+  width: 90px;
+  height: 26px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  border-color: #3882f6;
+  margin-top: 16px;
+}
+
+.hero-image {
+  width: auto;
+  height: 200px;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main1 {
+  width: 100%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.main1-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.main1-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+.main1-item {
+  width: 200px;
+}
+
+.main1-box {
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+  height: 200px;
+  width: auto;
+}
+
+.main2 {
+  min-height: 400px;
+  /* width: 100vw;  为啥这里不能这样写 会有margin*/
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+}
+.main3 {
+  height: 300px;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main3-box {
+  min-height: 150px;
+  /* width: auto; 宽度到底如何设置*/
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.sign-up2 {
+  width: 90px;
+  height: 26px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  border-color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
